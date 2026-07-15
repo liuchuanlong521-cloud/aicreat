@@ -1,0 +1,127 @@
+/**
+ * 全局样式 —— 复古温暖教案风
+ * 配色灵感：旧书纸 + 粉笔字 + 温和护眼
+ */
+
+// ========== 色板 ==========
+$bg-page    = #faf6f0    // 暖白底色（旧纸质感）
+$bg-code    = #f0ebe3    // 代码块底色
+$text-color = #3d3d3d    // 主文字色
+$accent     = #b4452f    // 朱砂红（重点强调）
+$accent2    = #2a6f6e    // 黛蓝绿（次要强调）
+$border     = #d9d0c4    // 边框色
+$tip-bg     = #eef6ef    // 核心考点背景（温和绿）
+$tip-border = #6b9d6b    // 核心考点边框
+$warn-bg    = #fdf3e5    // 名师旁白背景（暖橙）
+$warn-border = #c8923e   // 名师旁白边框
+
+// ========== 全局 ==========
+body
+  font-family 'Noto Serif SC', 'Source Han Serif SC', 'Georgia', 'SimSun', serif
+  background-color $bg-page
+  color $text-color
+  -webkit-font-smoothing antialiased
+
+// 标题区增加一点书卷气
+h1, h2, h3
+  font-weight 700
+  letter-spacing 0.02em
+
+h1
+  border-bottom 2px solid $accent
+  padding-bottom 0.3rem
+
+h2
+  border-bottom 1px solid $border
+
+// 正文行距舒适
+p, li
+  line-height 1.8
+  font-size 1rem
+
+// 链接颜色
+a
+  color $accent2
+  &:hover
+    color $accent
+
+// ========== 内联代码 ==========
+code
+  background-color $bg-code
+  color #5a3e2b
+  border-radius 3px
+  padding 0.15em 0.4em
+  font-size 0.875em
+
+// ========== 自定义容器 ==========
+
+// --- 核心考点（使用 tip 容器）--
+.custom-block.tip
+  background-color $tip-bg !important
+  border-color $tip-border !important
+  border-radius 6px
+  padding 1rem 1.5rem
+  margin 1.5rem 0
+
+  .custom-block-title
+    color darken($tip-border, 20%)
+    font-weight 700
+    font-size 1.05rem
+    &::before
+      content '📌 '
+      font-size 1.1rem
+
+// --- 名师旁白（使用 warning 容器）---
+.custom-block.warning
+  background-color $warn-bg !important
+  border-color $warn-border !important
+  border-radius 6px
+  padding 1rem 1.5rem
+  margin 1.5rem 0
+
+  .custom-block-title
+    color darken($warn-border, 20%)
+    font-weight 700
+    font-size 1.05rem
+    &::before
+      content '💡 '
+      font-size 1.1rem
+
+// --- Details 折叠块 ---
+.custom-block.details
+  background-color lighten($bg-page, 2%)
+  border 1px solid $border
+  border-radius 6px
+
+// ========== 侧边栏 ==========
+.sidebar
+  background-color darken($bg-page, 2%)
+  border-right 1px solid $border
+
+.sidebar > .sidebar-links > li > a.sidebar-link
+  font-weight 600
+  color $text-color
+
+a.sidebar-link.active
+  border-left-color $accent
+  color $accent
+
+// ========== 导航栏 ==========
+.navbar
+  background-color darken($bg-page, 4%)
+  border-bottom 1px solid $border
+  box-shadow 0 1px 4px rgba(0,0,0,0.04)
+
+// ========== 首页样式覆盖（如有） ==========
+.home
+  .hero
+    h1
+      color $accent
+    .description
+      color $text-color
+
+// ========== 页脚 ==========
+.page-edit, .page-nav
+  border-top 1px solid $border
+  padding-top 1rem
+  margin-top 1rem

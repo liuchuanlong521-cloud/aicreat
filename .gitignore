@@ -1,0 +1,14 @@
+node_modules/
+dist/
+scripts/rls-policies.sql
+
+# 临时报告文件
+diff_report.txt
+scan_out.txt
+title_classification.txt
+*scan_result.txt
+nul
+raw_containers.json
+
+# 原始抓取内容（本地参考用，禁止随仓库发布）
+raw-content/

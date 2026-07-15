@@ -1,0 +1,25 @@
+{
+  "name": "course-crawler",
+  "version": "1.0.0",
+  "description": "抓取课程内容并转换为 Markdown，供 VuePress 项目使用",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crawl": "node scripts/crawl.js",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.5",
+    "axios": "^1.7.2",
+    "cheerio": "^1.2.0",
+    "fs-extra": "^11.2.0",
+    "lodash": "^4.17.21",
+    "lodash.template": "^4.18.1",
+    "p-limit": "^6.1.0",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}

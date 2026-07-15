@@ -1,0 +1,118 @@
+[
+  {
+    "title": "第零章 课程导读",
+    "children": [
+      "/chapters/e185fe"
+    ]
+  },
+  {
+    "title": "第一章 AI产品经理入门",
+    "children": [
+      "/chapters/a0bfe1",
+      "/chapters/7fcf88",
+      "/chapters/3b48f3",
+      "/chapters/d53b7f",
+      "/chapters/2f8157",
+      "/chapters/23d480",
+      "/chapters/7fcf79"
+    ]
+  },
+  {
+    "title": "第二章 认识AI产品经理",
+    "children": [
+      "/chapters/3a9c7e",
+      "/chapters/3a9c7f",
+      "/chapters/3a9c80",
+      "/chapters/4409ed"
+    ]
+  },
+  {
+    "title": "第三章 AI技术基础",
+    "children": [
+      "/chapters/5c7eee",
+      "/chapters/c9960c",
+      "/chapters/6f3d1a",
+      "/chapters/d73985",
+      "/chapters/e0f7d5",
+      "/chapters/6006e9",
+      "/chapters/e8554b",
+      "/chapters/99c854",
+      "/chapters/663376",
+      "/chapters/ceb064",
+      "/chapters/58b321",
+      "/chapters/3c5206",
+      "/chapters/2ceb37",
+      "/chapters/85a2f8",
+      "/chapters/ab4a2f",
+      "/chapters/ab4a2g",
+      "/chapters/95b07d",
+      "/chapters/be68c8",
+      "/chapters/2ff490",
+      "/chapters/9b7d95",
+      "/chapters/07bd3e",
+      "/chapters/ag-ui"
+    ]
+  },
+  {
+    "title": "第四章 VibeCoding 实战",
+    "children": [
+      "/chapters/13b35b",
+      "/chapters/0f27e4",
+      "/chapters/370cd5"
+    ]
+  },
+  {
+    "title": "第五章 AI产品核心技能",
+    "children": [
+      "/chapters/a04c70",
+      "/chapters/678b8d",
+      "/chapters/6cf97e",
+      "/chapters/6f5979",
+      "/chapters/f5197a",
+      "/chapters/f4ad10",
+      "/chapters/095b87"
+    ]
+  },
+  {
+    "title": "第六章 AI产品实战",
+    "children": [
+      "/chapters/88ed59",
+      "/chapters/56303d",
+      "/chapters/caee9f",
+      "/chapters/3c74d7",
+      "/chapters/b713ee"
+    ]
+  },
+  {
+    "title": "第七章 AI商业模式",
+    "children": [
+      "/chapters/ee0795",
+      "/chapters/e15473",
+      "/chapters/3d9b92"
+    ]
+  },
+  {
+    "title": "第八章 AI行业观察",
+    "children": [
+      "/chapters/662f90",
+      "/chapters/73495b",
+      "/chapters/9k2m4n",
+      "/chapters/5p7q1r",
+      "/chapters/3s8t2u",
+      "/chapters/6v9w3x",
+      "/chapters/6w1x4y",
+      "/chapters/9z2a5b",
+      "/chapters/a1b2c3",
+      "/chapters/d4e5f6",
+      "/chapters/g7h8i9",
+      "/chapters/j1k2l3",
+      "/chapters/m4n5o6"
+    ]
+  },
+  {
+    "title": "第九章 产品思维培养",
+    "children": [
+      "/chapters/f608a2"
+    ]
+  }
+]
