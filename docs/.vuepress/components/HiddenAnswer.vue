@@ -121,4 +121,26 @@ export default {
     transform: translateY(0);
   }
 }
+/* ---- responsive ---- */
+@media (max-width: 600px) {
+  .ha-question {
+    font-size: 15px;
+    padding: 12px 16px;
+  }
+  .ha-answer {
+    font-size: 15px;
+    padding: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ha-question {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+  .ha-answer {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
 </style>

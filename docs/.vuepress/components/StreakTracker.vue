@@ -410,4 +410,48 @@ export default {
     width: 12px;
   }
 }
+
+@media (max-width: 480px) {
+  .st-header {
+    gap: 10px;
+  }
+  .st-title {
+    font-size: 18px;
+  }
+  .st-stats {
+    gap: 6px;
+  }
+  .st-stat {
+    padding: 8px 12px;
+    min-width: 70px;
+  }
+  .st-stat-num {
+    font-size: 22px;
+  }
+  .st-stat-label {
+    font-size: 11px;
+  }
+  .st-cell {
+    width: 9px;
+    height: 9px;
+  }
+  .st-week-col {
+    gap: 2px;
+  }
+  .st-grid-wrap {
+    gap: 2px;
+  }
+  .st-day-label {
+    font-size: 8px;
+    height: 10px;
+    line-height: 10px;
+    width: 9px;
+  }
+  .st-today-dot {
+    width: 3px;
+    height: 3px;
+    bottom: -1px;
+    right: -1px;
+  }
+}
 </style>

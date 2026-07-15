@@ -296,4 +296,39 @@ export default {
   color: #999;
   font-style: italic;
 }
+
+/* ---- responsive ---- */
+@media (max-width: 600px) {
+  .quiz-question {
+    font-size: 16px;
+    padding: 16px;
+  }
+  .quiz-option {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+  .explanation-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quiz-question {
+    font-size: 15px;
+    padding: 12px;
+  }
+  .quiz-option {
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+  .option-label {
+    width: 22px;
+    height: 22px;
+    font-size: 11px;
+    margin-right: 8px;
+  }
+  .explanation-text {
+    font-size: 13px;
+  }
+}
 </style>

@@ -385,4 +385,41 @@ export default {
     text-align: center;
   }
 }
+
+@media (max-width: 480px) {
+  .mb-card {
+    padding: 16px;
+  }
+  .mb-question {
+    font-size: 15px;
+    margin-bottom: 14px;
+  }
+  .mb-option {
+    padding: 8px 10px;
+  }
+  .mb-opt-text {
+    font-size: 13px;
+  }
+  .mb-opt-label {
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+    margin-right: 8px;
+  }
+  .mb-opt-badge {
+    font-size: 10px;
+    margin-left: 6px;
+  }
+  .mb-explanation {
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+  .mb-time {
+    font-size: 12px;
+  }
+  .mb-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
 </style>

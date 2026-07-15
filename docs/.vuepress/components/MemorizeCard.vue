@@ -124,4 +124,42 @@ export default {
   text-align: center;
   max-width: 90%;
 }
+
+/* ---- responsive ---- */
+@media (max-width: 600px) {
+  .memorize-card {
+    height: 200px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .card-translation {
+    font-size: 16px;
+  }
+  .card-front,
+  .card-back {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .memorize-card {
+    height: 170px;
+    margin: 16px 0;
+  }
+  .card-title {
+    font-size: 17px;
+    margin-bottom: 12px;
+  }
+  .card-translation {
+    font-size: 14px;
+  }
+  .card-front,
+  .card-back {
+    padding: 14px;
+  }
+  .flip-hint {
+    font-size: 11px;
+  }
+}
 </style>

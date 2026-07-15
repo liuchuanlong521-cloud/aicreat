@@ -36,7 +36,7 @@ module.exports = {
   description: '让技术不再高深，让产品更有深度 —— AI产品经理知识体系',
 
   dest: 'dist',           // 构建输出目录
-  base: '/',              // 如部署到子路径请修改
+  base: '/aicreat/',      // GitHub Pages 子路径，与仓库名一致
 
   // ---------- 主题配置 ----------
   themeConfig: {
